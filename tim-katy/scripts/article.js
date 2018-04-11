@@ -4,8 +4,6 @@ let articles = [];
 
 // COMMENT: What is the purpose of the following function? Why is its name capitalized? Explain the context of "this" within the function. What does "rawDataObj" represent?
 // The following function is an object constructor and capitalization is the proper syntax.
-//
-//
 
 function Article (rawDataObj) {
   // TODO: Use the JS object that is passed in to complete this constructor function:

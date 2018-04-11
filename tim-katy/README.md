@@ -1,26 +1,24 @@
-# Kilovolt Blog js
-
 **Author**: Tim & Katy
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This application displays a blog with various articles and images. It using .js files to take in objects and append them into the html document. It's being built to more easily add additional articles with only having to create another object in an array.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+The user would start with an html page with the desired elements and classes. They'd likely start with basic CSS for initial formatting and then use javascript to publish the articles.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+The application uses html, css and js files, and references the jQuery library. The application has access to a few fonts and icons through additional CSS files.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+10:30am - created constructor function
+11:00am - added draft article object
+1:00pm - iterating through rawData and pushing a new Article 
+1:05pm - article.js posting to application through forEach(); loop
 
-
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-1. 10:30am created constructor function
-2. 11:00am added draft article object
+https://oscarotero.com/jquery/
+JavaScript & JQuery by Jon Duckett
+301 TAs: Melanie and Nikolas and Noah
