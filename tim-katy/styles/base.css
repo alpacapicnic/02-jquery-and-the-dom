@@ -1,0 +1,27 @@
+.site-header {
+    background-color: rgb(241, 222, 157);
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* height: 164px; */
+    overflow: auto;
+}
+
+.heading-group-h1 {
+    font-size: 30px;
+    margin: 20px 0 20px 10px;
+}
+
+.heading-group-h1 h2 {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 10px;
+    border-bottom: .5px solid rgb(161, 161, 161);
+}
+
+
+
