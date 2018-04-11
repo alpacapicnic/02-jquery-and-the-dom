@@ -1,0 +1,40 @@
+@media screen and (min-width: 640px) {
+    .icon-menu {
+        visibility: hidden;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+     .main-nav ul {
+        display: none;
+        content: " ";
+        clear: both;
+    }
+    .icon-menu {
+        visibility: visible;
+        float: right;
+        font-size: 3em;
+    
+    }
+    .heading-group-h1 {
+        float: left;
+    } 
+    .main-nav:hover ul {
+        display: block;
+        
+    }
+    .main-nav:hover ul li {
+        display: block;
+        margin: 10px;
+        
+        
+    }
+   
+
+}
+.template {
+    display: none;
+}
