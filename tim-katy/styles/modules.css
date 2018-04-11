@@ -3,6 +3,8 @@
         visibility: hidden;
         
     }
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -30,6 +32,9 @@
         
         
     }
-    
+   
 
+}
+.template {
+    display: none;
 }
